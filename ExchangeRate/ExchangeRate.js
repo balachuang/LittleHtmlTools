@@ -7,7 +7,8 @@ $(document).ready(function(){
 	$('#addCurrency').click(inputCurrency);
 	$('#showCurrency').click(showCurrency);
 	$('#clearCurrency').click(clearCurrency);
-	$('#input-curr').change(parseCurrencyRate);
+	$('#input-curr').keyup(parseCurrencyRate);
+	$('#input-curr').focus(function() { $(this).select(); });
 });
 
 function inputCurrency()
