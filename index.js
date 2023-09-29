@@ -1,11 +1,11 @@
 let tools = [
 	{
-		id: 'MultipleLinks',
-		name: 'Open Multiple Urls'
+		name: 'Open Multiple Urls',
+		id: 'MultipleLinks'
 	},
 	{
-		id: 'ExchangeRate',
-		name: 'Exchange Rate'
+		name: 'Exchange Rate',
+		id: 'ExchangeRate'
 	},
 ];
 let htmlTemplate = '<li><a href="{id}/{id}.html">{name}</a></li>';

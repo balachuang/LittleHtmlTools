@@ -1,14 +1,30 @@
+var currIdx = 0;
+var invTime = 0;
+var urls = null;
+var ctrlClick = null;
+
+$(document).ready(function(){
+	$('#openUrsl').click(openUrls);
+});
+
 function openUrls()
 {
-	let urls = $('#urls').val().trim();
+	ctrlClick = jQuery.Event('click');
+	ctrlClick.ctrltKey = true;
+
+	invTime = eval($('#open-int').val()) * 1000 + 100;
+
+	currIdx = 0;
+	urls = $('#urls').val().trim();
 
 	if (urls && (urls != ''))
 	{
 		urls = urls.split('\n');
-		for (var n=0; n<urls.length; ++n)
+		for (let n=0; n<urls.length; ++n)
 		{
 			let url = urls[n].trim();
-			window.open(url, '_blank');
+			let wait = invTime * n;
+			window.open('MultipleLinks_delay.html?url=' + encodeURIComponent(url) + '&wait=' + wait, '_blank');
 		}
 	}
 }
