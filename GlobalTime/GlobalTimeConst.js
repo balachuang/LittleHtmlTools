@@ -119,7 +119,23 @@ const positions = [
 			'https://www.google.com.tw/maps/@37.8086682,-122.4101669,3a,75y,350.51h,89.61t/data=!3m8!1e1!3m6!1sAF1QipMnlXKOg8ptYiB-rMGJq1FgfDYnJz-7ZxpzSdAx!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMnlXKOg8ptYiB-rMGJq1FgfDYnJz-7ZxpzSdAx%3Dw203-h100-k-no-pi-0-ya19.953331-ro-0-fo100!7i7200!8i3600?entry=ttu',
 			'https://www.google.com.tw/maps/@37.8097069,-122.4161624,3a,75y,329.28h,95.4t/data=!3m8!1e1!3m6!1sAF1QipMUwUhbXzcl9lcEIDDLoSF1hvErJvguJY3lZvVS!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMUwUhbXzcl9lcEIDDLoSF1hvErJvguJY3lZvVS%3Dw203-h100-k-no-pi-0.6388225-ya305.79068-ro-4.7389746-fo100!7i7200!8i3600?entry=ttu',
 			'https://www.google.com.tw/maps/@37.8087768,-122.4717975,3a,88.3y,313.6h,96.44t/data=!3m6!1e1!3m4!1sTLT9GDLs3tEmSSAJm3lWEg!2e0!7i13312!8i6656?entry=ttu',
-			'https://www.google.com.tw/maps/@37.8078727,-122.418567,3a,75y,169.61h,100.25t/data=!3m6!1e1!3m4!1sDVbUYoAJtM60_W77hhjo0Q!2e0!7i16384!8i8192?entry=ttu'
+			'https://www.google.com.tw/maps/@37.8078727,-122.418567,3a,75y,169.61h,100.25t/data=!3m6!1e1!3m4!1sDVbUYoAJtM60_W77hhjo0Q!2e0!7i16384!8i8192?entry=ttu',
+			'https://www.google.com.tw/maps/@37.7505282,-122.2018705,3a,75y,254.89h,106.71t/data=!3m8!1e1!3m6!1sAF1QipMBoKgxc_YXi4hXAjYGw9F3eI1a8GVdT4Rj2VnK!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMBoKgxc_YXi4hXAjYGw9F3eI1a8GVdT4Rj2VnK%3Dw203-h100-k-no-pi-0-ya174.27858-ro0-fo100!7i8704!8i4352?entry=ttu'
+		]
+	},{
+		name: '西雅圖 / Seattle',
+		x: 74.1, y: 39.2, timeZone: -8, offset: {x: -9, y: -1},
+		references: [
+			'https://www.google.com.tw/maps/@47.6208581,-122.3484483,3a,75y,235.58h,134.92t/data=!3m7!1e1!3m5!1stBLGYnKb8CgZB9T2bo0ziQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DtBLGYnKb8CgZB9T2bo0ziQ%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D98.84805%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?entry=ttu',
+			'https://www.google.com.tw/maps/@47.608788,-122.340647,2a,75y,197.73h,107.32t/data=!3m6!1e1!3m4!1sL1OnTzm4oo0Zj1qAb4QNhA!2e0!7i13312!8i6656?entry=ttu',
+			'https://www.google.com.tw/maps/@45.1557859,-122.8779215,3a,75y,310.74h,100.29t/data=!3m6!1e1!3m4!1sBXftnazAIpBiR9G2DishXg!2e0!7i16384!8i8192?entry=ttu'
+		]
+	},{
+		name: '洛杉磯 / Los Angeles',
+		x: 74.8, y: 46.3, timeZone: -8, offset: {x: -5.5, y: 4},
+		references: [
+			'https://www.google.com.tw/maps/@34.1016013,-118.3409685,3a,75y,357.75h,105.65t/data=!3m6!1e1!3m4!1sbs6opyW_oCSErAxrSBc1sQ!2e0!7i16384!8i8192?entry=ttu',
+			'https://www.google.com.tw/maps/@34.1289299,-118.3224647,326a,35y,7.03h,71.88t/data=!3m1!1e3?entry=ttu'
 		]
 	}
 ];
