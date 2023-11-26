@@ -2,6 +2,7 @@ body {
 	overflow: hidden;
 	padding: 0px;
 	font-family: Calibri, Arial, 微軟正黑體, 新細明體;
+	font-size: 0.8em;
 }
 
 #earth-map {
@@ -66,11 +67,11 @@ div.posArrow {
 }
 
 .posName {
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 .timeStr {
-	font-size: 1.3em;
+	font-size: 1.2em;
 	line-height: 120%;
 }
 

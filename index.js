@@ -3,7 +3,6 @@ let tools = [
 	{ name: 'Exchange Rate',        id: 'ExchangeRate'   },
 	{ name: 'My Online Bookmarks',  id: 'OnlineBookmark' },
 	{ name: 'Global Time',          id: 'GlobalTime'     },
-	{ name: 'Test',                 id: 'Test'           },
 ];
 
 let htmlTemplate = '<li><a href="{id}/{id}.html">{name}</a></li>';
