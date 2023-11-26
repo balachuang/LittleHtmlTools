@@ -2,6 +2,7 @@ let tools = [
 	{ name: 'Open Multiple Urls',   id: 'MultipleLinks'  },
 	{ name: 'Exchange Rate',        id: 'ExchangeRate'   },
 	{ name: 'My Online Bookmarks',  id: 'OnlineBookmark' },
+	{ name: 'Global Time',          id: 'GlobalTime'     },
 ];
 
 let htmlTemplate = '<li><a href="{id}/{id}.html">{name}</a></li>';
