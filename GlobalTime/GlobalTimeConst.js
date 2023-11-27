@@ -53,16 +53,6 @@ const positions = [
 			'https://www.google.com.tw/maps/@34.7012056,135.1897717,3a,75y,175.18h,117.13t/data=!3m8!1e1!3m6!1sAF1QipMvc0BLmjPi1HxcTkBonuoN2qmHBX0XCyBBtSHX!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMvc0BLmjPi1HxcTkBonuoN2qmHBX0XCyBBtSHX%3Dw203-h100-k-no-pi0-ya358.5443-ro-0-fo100!7i6080!8i3040?entry=ttu'
 		]
 	},{
-		name: '北海道 / Hokkaido',
-		x: 47.2, y: 39.9, timeZone: 9, offset: {x: 2, y: -2},
-		references: [
-			'https://www.google.com.tw/maps/@41.7721508,140.7069229,3a,39.1y,142.41h,97.9t/data=!3m6!1e1!3m4!1s-Gdif6W-eviPEhMFf9SK3A!2e0!7i16384!8i8192?entry=ttu',
-			'https://www.google.com.tw/maps/@43.7685518,142.4774965,3a,47y,100.57h,97.24t/data=!3m6!1e1!3m4!1s2nyheTy2Qxp4CXcY4MEU0A!2e0!7i13312!8i6656?entry=ttu',
-			'https://www.google.com.tw/maps/@42.5661507,140.8225251,3a,75y,348.11h,95.05t/data=!3m8!1e1!3m6!1sAF1QipNCkANtT15BaZzeM8sRfr6UePPXl5PB-ryqnn84!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNCkANtT15BaZzeM8sRfr6UePPXl5PB-ryqnn84%3Dw203-h100-k-no-pi-0-ya18.755905-ro-0-fo100!7i8704!8i4352?entry=ttu',
-			'https://www.google.com.tw/maps/@43.1975999,141.0029596,3a,49.6y,174.39h,103.53t/data=!3m6!1e1!3m4!1svXFLuMuEJJylxcuOvyYM1w!2e0!7i16384!8i8192?entry=ttu',
-			'https://www.google.com.tw/maps/@43.342485,142.3605757,3a,75y,273.51h,93.76t/data=!3m7!1e1!3m5!1sAF1QipOI_TiTg-GIztbobjIoc2XiIN05FzqGmkW1RusY!2e10!3e12!7i13312!8i6656?entry=ttu'
-		]
-	},{
 		name: '北京',
 		x: 39.7, y: 42.8, timeZone: 8, offset: {x: -8, y: 0.5},
 		references: [
