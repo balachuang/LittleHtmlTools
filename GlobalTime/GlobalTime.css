@@ -49,7 +49,7 @@ body {
 
 div.timePosDesc {
 	position: fixed;
-	background-color: #124f0d;
+	background-color: #614425;
 	color: white;
 	z-index: 1;
 	padding: 5px 20px 10px 10px;
@@ -64,7 +64,7 @@ div.timePosDesc:hover {
 div.posArrow {
 	position: fixed;
 	border: none;
-	background-color: #124f0d;
+	background-color: #614425;
 	z-index: -1;
 }
 
@@ -80,5 +80,5 @@ div.posArrow {
 a.posReference:link, a.posReference:visited {
 	text-decoration: none;
 	cursor: pointer;
-	color: white;
+	/* color: white; */
 }
