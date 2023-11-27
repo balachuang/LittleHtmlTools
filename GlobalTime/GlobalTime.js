@@ -34,8 +34,10 @@ $(document).ready(function()
 		// * 要先把 DIV 加到畫面上, 才能抓到寬高.
 		// * 要先預設一個時間字串, 這樣抓出來的寬度才會正確
 		let divSteps = 100;
-		let wStart = posDescDom.width()  / 2;
-		let hStart = posDescDom.height() / 2;
+		// let wStart = posDescDom.width()  / 2;
+		// let hStart = posDescDom.height() / 2;
+		let wStart = 30;
+		let hStart = 30;
 		let startPos = { x: decPos.x + posDescDom.width()  / 2, y: decPos.y + posDescDom.height() / 2 };
 		let distance = { x: pntPos.x - startPos.x + 5,          y: pntPos.y - startPos.y + 5          };
 		for (var k=0; k<divSteps; ++k)

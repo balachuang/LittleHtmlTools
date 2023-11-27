@@ -132,7 +132,7 @@ const positions = [
 		]
 	},{
 		name: '洛杉磯 / Los Angeles',
-		x: 74.4, y: 45.6, timeZone: -8, offset: {x: -5.5, y: 4},
+		x: 74.4, y: 45.6, timeZone: -8, offset: {x: -4.5, y: 4},
 		references: [
 			'https://www.google.com.tw/maps/@34.1016013,-118.3409685,3a,75y,357.75h,105.65t/data=!3m6!1e1!3m4!1sbs6opyW_oCSErAxrSBc1sQ!2e0!7i16384!8i8192?entry=ttu',
 			'https://www.google.com.tw/maps/@34.1289299,-118.3224647,326a,35y,7.03h,71.88t/data=!3m1!1e3?entry=ttu'
