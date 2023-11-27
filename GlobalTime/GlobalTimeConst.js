@@ -16,7 +16,7 @@ const posDomTemp4 = '<div class="posArrow"></div>';
 const positions = [
 	{
 		name: '台北 / Taipei',
-		x: 41.3, y: 50.9, timeZone: 8, offset: {x: 1, y: -0.5},
+		x: 41.3, y: 50.9, timeZone: 8, offset: {x: -0.5, y: 2.5},
 		references: [
 			'https://www.google.com.tw/maps/@24.9795201,121.5405383,92a,35y,194.77h,62.54t/data=!3m1!1e3?entry=ttu',
 			'https://www.google.com.tw/maps/@25.0261969,121.5598102,647a,35y,32.34h,67.36t/data=!3m1!1e3?entry=ttu'
@@ -43,6 +43,18 @@ const positions = [
 	},{
 		name: '京都, 大阪, 神戶',
 		x: 45.6, y: 45.5, timeZone: 9, offset: {x: -8, y: -6},
+		references: [
+			'https://www.google.com.tw/maps/@34.6692635,135.5013025,3a,75y,174.61h,111.43t/data=!3m6!1e1!3m4!1s7ksTbl8b1t4kWBQlQV7tGQ!2e0!7i13312!8i6656?entry=ttu',
+			'https://www.google.com.tw/maps/@34.9940965,135.7854214,2a,90y,306.7h,91.7t/data=!3m6!1e1!3m4!1shHkLHDIby-kpTuEZhE81Fg!2e0!7i13312!8i6656?entry=ttu',
+			'https://www.google.com.tw/maps/@35.0165558,135.6704913,3a,75y,62.05h,102.23t/data=!3m7!1e1!3m5!1slmrRDAe38hnChb7OX-VnTg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DlmrRDAe38hnChb7OX-VnTg%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D317.8427%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?entry=ttu',
+			'https://www.google.com.tw/maps/@35.011276,135.6038915,3a,75y,67h,94.5t/data=!3m7!1e1!3m5!1s_veSygKCchQYfyRUCWsE0A!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3D_veSygKCchQYfyRUCWsE0A%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D91.7136%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656?entry=ttu',
+			'https://www.google.com.tw/maps/@34.6835263,135.8397708,3a,75y,35.9h,93.01t/data=!3m6!1e1!3m4!1sCntphI3BZ0n2_4-UJ-YqXw!2e0!7i16384!8i8192?entry=ttu',
+			'https://www.google.com.tw/maps/@34.6792469,135.1853982,3a,75y,39.93h,99.25t/data=!3m7!1e1!3m5!1sAF1QipMizRq8niTwr8x8LnmGMpm4ar84AIL44syoi22N!2e10!3e11!7i5760!8i2880?entry=ttu',
+			'https://www.google.com.tw/maps/@34.7012056,135.1897717,3a,75y,175.18h,117.13t/data=!3m8!1e1!3m6!1sAF1QipMvc0BLmjPi1HxcTkBonuoN2qmHBX0XCyBBtSHX!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMvc0BLmjPi1HxcTkBonuoN2qmHBX0XCyBBtSHX%3Dw203-h100-k-no-pi0-ya358.5443-ro-0-fo100!7i6080!8i3040?entry=ttu'
+		]
+	},{
+		name: '沖繩 / Okinawa',
+		x: 42.9, y: 49.5, timeZone: 9, offset: {x: 5.9, y: 1.5},
 		references: [
 			'https://www.google.com.tw/maps/@34.6692635,135.5013025,3a,75y,174.61h,111.43t/data=!3m6!1e1!3m4!1s7ksTbl8b1t4kWBQlQV7tGQ!2e0!7i13312!8i6656?entry=ttu',
 			'https://www.google.com.tw/maps/@34.9940965,135.7854214,2a,90y,306.7h,91.7t/data=!3m6!1e1!3m4!1shHkLHDIby-kpTuEZhE81Fg!2e0!7i13312!8i6656?entry=ttu',
