@@ -19,9 +19,11 @@ $(document).ready(function()
 				.css({ left: decPos.x, top:  decPos.y });
 
 		// 產生連結
+		let descLen = positions[i].descriptions ? positions[i].descriptions.length : -1;
 		for (let j=0; j<positions[i].references.length; ++j)
 		{
-			let refDom = posDomTemp3.replace('{{url}}', positions[i].references[j]);
+			let descText = (j < descLen) ? positions[i].descriptions[j] : 'Link';
+			let refDom = posDomTemp3.replace('{{url}}', positions[i].references[j]).replace('{{desc}}', descText);
 			posDescDom.append(refDom);
 		}
 
