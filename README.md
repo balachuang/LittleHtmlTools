@@ -1,3 +1,3 @@
 # LittleHtmlTools
 
-url: https://balachuang.github.io/LittleHtmlTools/
+url: https://balachuang.github.io/LittleHtmlTools/index.html
