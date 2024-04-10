@@ -91,14 +91,18 @@ const positions = [
 			'https://www.google.com.tw/maps/@26.4332902,127.7187226,3a,46.7y,179.93h,94.94t/data=!3m6!1e1!3m4!1sp6R7KBNamNhwvaFktBnImA!2e0!7i16384!8i8192?entry=ttu',
 			'https://www.google.com.tw/maps/@26.6109506,127.9910609,3a,75y,42.9h,70.72t/data=!3m6!1e1!3m4!1syR_zNpMM8gpJlPrKTB1plA!2e0!7i13312!8i6656?entry=ttu',
 			'https://www.google.com.tw/maps/@26.6943944,127.8780518,3a,75y,352.4h,96.17t/data=!3m8!1e1!3m6!1sAF1QipOreE23JT9w3xWjYZj1HqpZImaWAljXx3AS0U2V!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOreE23JT9w3xWjYZj1HqpZImaWAljXx3AS0U2V%3Dw203-h100-k-no-pi-0-ya234.46684-ro0-fo100!7i5660!8i2830?entry=ttu',
-			'https://www.google.com.tw/maps/@26.5050261,127.8497957,2a,75y,290.88h,65.67t/data=!3m7!1e1!3m5!1s-9nMW_oUDYdzF3Irf4GdCw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3D-9nMW_oUDYdzF3Irf4GdCw%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D76.35966%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656?entry=ttu'
+			'https://www.google.com.tw/maps/@26.5050261,127.8497957,2a,75y,290.88h,65.67t/data=!3m7!1e1!3m5!1s-9nMW_oUDYdzF3Irf4GdCw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3D-9nMW_oUDYdzF3Irf4GdCw%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D76.35966%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656?entry=ttu',
+			'https://www.google.com.tw/maps/@26.2181754,127.7167613,3a,75y,107.65h,86.97t/data=!3m6!1e1!3m4!1sd-LuW5noUPeO-1s8L6JWUw!2e0!7i13312!8i6656?entry=ttu',
+			'https://www.google.com.tw/maps/@26.2170094,127.7191288,3a,75y,173.51h,94.78t/data=!3m8!1e1!3m6!1sAF1QipO9nRUaQzdFmM8XzWfPvspnQo6daQVxcKdKhi74!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipO9nRUaQzdFmM8XzWfPvspnQo6daQVxcKdKhi74%3Dw203-h100-k-no-pi-0-ya0.7663465-ro-0-fo100!7i2508!8i1254?entry=ttu'
 		],
 		descriptions: [
 			'國際通',
 			'殘波岬皇家渡假飯店外面的商店',
 			'沖繩自然動植物公園 - 不小心發現有點搞笑的景點',
 			'沖繩美麗海水族館, 鯨鯊的眼睛好震撼',
-			'萬座毛'
+			'萬座毛',
+			'首里城',
+			'首里城御庭'
 		]
 	},{
 		name: '北京',
