@@ -1,4 +1,8 @@
-$(document).ready(function()
+$(document).ready(function(){
+	setTimeout(generateMapPoints, 1000);
+});
+
+function generateMapPoints()
 {
 	// read all position and put on screen
 	for (let i in positions)
@@ -62,7 +66,7 @@ $(document).ready(function()
 
 	// update time
 	updateTimeStr();
-});
+}
 
 function updateTimeStr()
 {
