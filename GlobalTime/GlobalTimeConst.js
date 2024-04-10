@@ -131,12 +131,14 @@ const positions = [
 		references: [
 			'https://www.google.com.tw/maps/@22.2710413,114.1503332,3a,73.7y,355.46h,79.73t/data=!3m8!1e1!3m6!1sAF1QipMiGztBEfFYWEmY4mHVGvFFoBEMLv5G7e2a6865!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMiGztBEfFYWEmY4mHVGvFFoBEMLv5G7e2a6865%3Dw203-h100-k-no-pi-0-ya145.51648-ro0-fo100!7i10240!8i5120?entry=ttu',
 			'https://www.google.com.tw/maps/@22.2929688,114.1732326,3a,75y,199.5h,103.82t/data=!3m7!1e1!3m5!1sOh5zsDc0COGYnXWRxP_jQA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DOh5zsDc0COGYnXWRxP_jQA%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D108.070244%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?entry=ttu',
-			'https://www.google.com.tw/maps/@22.3190078,114.1765665,3a,75y,232.5h,104.67t/data=!3m6!1e1!3m4!1s4kfP6yUcLPIXpnPnDUJnBA!2e0!7i16384!8i8192?entry=ttu'
+			'https://www.google.com.tw/maps/@22.3190078,114.1765665,3a,75y,232.5h,104.67t/data=!3m6!1e1!3m4!1s4kfP6yUcLPIXpnPnDUJnBA!2e0!7i16384!8i8192?entry=ttu',
+			'https://www.google.com.tw/maps/@22.2905439,114.1940751,3a,75y,304.6h,119.57t/data=!3m6!1e1!3m4!1sTXXMA-YqH9xaE5H9KEtGjg!2e0!7i16384!8i8192?entry=ttu'
 		],
 		descriptions: [
 			'太平山頂夜景',
 			'維多利亞港 - 星光大道',
-			'香港女青年會栢顏露斯會所'
+			'香港女青年會栢顏露斯會所',
+			'城市花酒店...對面的密集大樓'
 		]
 	},{
 		name: '瑞士 / Switzerland',
@@ -218,12 +220,14 @@ const positions = [
 		references: [
 			'https://www.google.com.tw/maps/@47.6208581,-122.3484483,3a,75y,235.58h,134.92t/data=!3m7!1e1!3m5!1stBLGYnKb8CgZB9T2bo0ziQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DtBLGYnKb8CgZB9T2bo0ziQ%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D98.84805%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?entry=ttu',
 			'https://www.google.com.tw/maps/@47.6087743,-122.3404439,3a,60y,215.48h,90t/data=!3m6!1e1!3m4!1sYq1R-41F_y3IbRS_F6n71w!2e0!7i16384!8i8192?entry=ttu',
-			'https://www.google.com.tw/maps/@45.1557859,-122.8779215,3a,75y,310.74h,100.29t/data=!3m6!1e1!3m4!1sBXftnazAIpBiR9G2DishXg!2e0!7i16384!8i8192?entry=ttu'
+			'https://www.google.com.tw/maps/@45.1557859,-122.8779215,3a,75y,310.74h,100.29t/data=!3m6!1e1!3m4!1sBXftnazAIpBiR9G2DishXg!2e0!7i16384!8i8192?entry=ttu',
+			'https://www.google.com.tw/maps/@45.4281444,-122.5742803,3a,75y,283.57h,92.08t/data=!3m7!1e1!3m5!1so9ygf6j8qJTXaxxXM2tXfQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3Do9ygf6j8qJTXaxxXM2tXfQ%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D96.07843%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656?entry=ttu'
 		],
 		descriptions: [
 			'太空針塔',
 			'派克市場',
-			'買到手軟的 Woodburn Premium Outlets'
+			'買到手軟的 Woodburn Premium Outlets',
+			'波特蘭的 Costco, Pizza 超好吃'
 		]
 	},{
 		name: '洛杉磯 / Los Angeles',
