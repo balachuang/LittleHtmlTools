@@ -1,5 +1,10 @@
 $(document).ready(function(){
-	setTimeout(generateMapPoints, 1000);
+	var bgMap = new Image();
+	bgMap.onload = function(){
+		$('#earth-map').css('background-image', 'url(' + bgMap.src + ')');
+		generateMapPoints();
+	};
+	bgMap.src = 'map/global-map.jpg';
 });
 
 function generateMapPoints()
