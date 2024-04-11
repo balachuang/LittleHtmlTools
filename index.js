@@ -1,7 +1,7 @@
 let tools = [
 	{ name: 'Open Multiple Urls',   id: 'MultipleLinks'  },
 	{ name: 'Exchange Rate',        id: 'ExchangeRate'   },
-	{ name: 'Online Bookmarks',     id: 'OnlineBookmark' },
+	// { name: 'Online Bookmarks',     id: 'OnlineBookmark' },
 	{ name: 'Global Time',          id: 'GlobalTime'     },
 	{ name: 'Coffee Counter',       id: 'CoffeeWhite'    },
 ];
