@@ -152,7 +152,8 @@ const positions = [
 			'https://www.google.com.tw/maps/@46.9482771,7.4599197,3a,75y,245.98h,95.73t/data=!3m7!1e1!3m5!1svvm-qcy1BtEcwjIVg3rSHg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3Dvvm-qcy1BtEcwjIVg3rSHg%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D242.5472%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?entry=ttu',
 			'https://www.google.com.tw/maps/@46.9480269,7.448185,3a,75y,241.7h,117.36t/data=!3m8!1e1!3m6!1sAF1QipNRyauv9gV-xH6I6CbkLnR79B8eyZQOogQV5AIk!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNRyauv9gV-xH6I6CbkLnR79B8eyZQOogQV5AIk%3Dw203-h100-k-no-pi0-ya358.34283-ro-0-fo100!7i4000!8i2000?entry=ttu',
 			'https://www.google.com.tw/maps/@46.2060376,6.1491322,3a,75y,34.28h,107.5t/data=!3m8!1e1!3m6!1sAF1QipOiy1sA9bxq1qNZxDM3SwtpfZUqLdAs3ET7hIco!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOiy1sA9bxq1qNZxDM3SwtpfZUqLdAs3ET7hIco%3Dw203-h100-k-no-pi0-ya214.17435-ro-0-fo100!7i8704!8i4352?entry=ttu',
-			'https://www.google.com.tw/maps/@46.6901975,7.8686849,3a,75y,104.2h,98.72t/data=!3m7!1e1!3m5!1sYd0lrAMOa03-sUtY9CNf0g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DYd0lrAMOa03-sUtY9CNf0g%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D155.25082%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656?entry=ttu'
+			'https://www.google.com.tw/maps/@46.6901975,7.8686849,3a,75y,104.2h,98.72t/data=!3m7!1e1!3m5!1sYd0lrAMOa03-sUtY9CNf0g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DYd0lrAMOa03-sUtY9CNf0g%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D155.25082%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656?entry=ttu',
+			'https://www.google.com.tw/maps/place/%E8%A5%BF%E5%BA%B8%E5%A0%A1/@46.4155776,6.925843,54a,35y,130.92h,78.84t/data=!3m1!1e3!4m14!1m7!3m6!1s0x478e9a5baedd65c3:0x22994259155c8307!2z6KW_5bq45aCh!8m2!3d46.4142131!4d6.9274924!16zL20vMDRkZHB6!3m5!1s0x478e9a5baedd65c3:0x22994259155c8307!8m2!3d46.4142131!4d6.9274924!16zL20vMDRkZHB6?entry=ttu'
 		],
 		descriptions: [
 			'飯店 - Hotel Alpha-Palmiers 3D',
@@ -163,7 +164,8 @@ const positions = [
 			'伯恩熊園',
 			'伯恩時鐘塔',
 			'日內瓦大噴泉',
-			'因特拉肯'
+			'因特拉肯',
+			'西庸堡'
 		]
 	},{
 		name: '費爾班克斯 / Fairbanks',

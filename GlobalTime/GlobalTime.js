@@ -98,6 +98,10 @@ function getDateStr(tz)
 	return yyyy + '-' + mm + '-' + dd + ' ' + hh + ':' + mi + ':' + ss;
 }
 
-function toViewX(x) { return $(document).width()  * x / 100.0; }
-function toViewY(y) { return $(document).height() * y / 100.0; }
+function toViewX(x) { return xMappingByDoc(x); }
+function toViewY(y) { return yMappingByDoc(y); }
+function xMappingByDoc(x){ return $(document).width()  * x / 100.0; }
+function yMappingByDoc(y){ return $(document).height() * y / 100.0; }
+// function xMappingByMap(x) { return $('#earth-map').width()  * x / 100.0; }
+// function yMappingByMap(y) { return $('#earth-map').height() * y / 100.0; }
 function len2(s) { return ('0' + s).slice(-2); }
