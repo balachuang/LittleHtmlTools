@@ -15,12 +15,15 @@ body {
 }
 
 dl {
+	line-height: 2em;
 	display: block;
 	padding-left: 30px;
 	cursor: pointer;
 }
 
 dt a {
+	display: block;
+	width: 100%;
 	line-height: 2em;
 	text-align: justify;
 	color: black;
@@ -32,8 +35,20 @@ h3 {
 	background: none;
 }
 
-h3:hover {
-	background-color: lime;
+h3:before {
+	content: url("arrow_down_24.png");
+	float: left;
+	margin: 0 6px 0 0;
+}
+
+h3.hide-content:before {
+	content: url("arrow_right_24.png");
+	float: left;
+	margin: 0 6px 0 0;
+}
+
+ h3:hover, a:hover {
+	background-color: rgba(208, 243, 255, 0.964);
 }
 
 a:hover {

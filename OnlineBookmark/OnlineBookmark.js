@@ -31,8 +31,14 @@ function initializeTree()
 {
 	// set slide toggle animation
 	$('h3').click(function(){
-		let nxtDL = $(this).next('dl');
-		if (nxtDL.length > 0) nxtDL.slideToggle();
+		let thisH3 = $(this);
+		let nxtDL = thisH3.next('dl');
+		thisH3.removeClass('hide-content');
+		if (nxtDL.length > 0) {
+			nxtDL.slideToggle(function(){
+				if (!nxtDL.is(':visible')) thisH3.addClass('hide-content');
+			});
+		}
 	});
 
 	// put icon in all link
@@ -48,7 +54,11 @@ function initializeTree()
 	$('h3').each(function(){
 		let isShow = (titleShowOnInit.indexOf($(this).text()) >= 0);
 		let nxtDL = $(this).next('dl');
-		if (!isShow && (nxtDL.length > 0)) nxtDL.hide();
+		$(this).removeClass('hide-content');
+		if (!isShow && (nxtDL.length > 0)) {
+			nxtDL.hide();
+			$(this).addClass('hide-content');
+		}
 	});
 }
 
