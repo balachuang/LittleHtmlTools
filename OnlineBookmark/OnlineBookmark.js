@@ -29,12 +29,6 @@ function findBookmark(searchDay)
 
 function initializeTree()
 {
-	$('dl').click(function(e){e.preventDefault();});
-	// $('a').click(function(e){
-	// 	console.log('click');
-	// 	console.dir(e);
-	// });
-
 	// set slide toggle animation
 	$('h3').click(function(){
 		let nxtDL = $(this).next('dl');
