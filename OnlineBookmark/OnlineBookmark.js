@@ -2,7 +2,22 @@ var bkFileTemp = 'bookmarks/bookmarks_{yyyy}_{mm}_{dd}.html';
 var titleShowOnInit = ['書籤列', '我的書籤'];
 var bookmarks = [];
 
-$(document).ready(function(){ findBookmark(new Date()); });
+$(document).ready(init);
+function init()
+{
+	$('#open-link-btns span.open-all').click(openAllLinks);
+
+	$(document).on('mouseenter', 'h3', function(){
+		$(this).append($('#open-link-btns'));
+		$('#open-link-btns').show();
+	});
+	
+	$(document).on('mouseleave', 'h3', function(){
+		$('#open-link-btns').hide();
+	});
+
+	findBookmark(new Date());
+}
 
 function findBookmark(searchDay)
 {
@@ -30,7 +45,7 @@ function findBookmark(searchDay)
 function initializeTree()
 {
 	// set slide toggle animation
-	$('h3').click(function(){
+	$('h3').click(function(e){
 		let thisH3 = $(this);
 		let nxtDL = thisH3.next('dl');
 		thisH3.removeClass('hide-content');
@@ -50,7 +65,7 @@ function initializeTree()
 		$(this).attr('target', '_new');
 	});
 
-	// initial slide up
+	// pre-process all titles
 	$('h3').each(function(){
 		let isShow = (titleShowOnInit.indexOf($(this).text()) >= 0);
 		let nxtDL = $(this).next('dl');
@@ -59,6 +74,23 @@ function initializeTree()
 			nxtDL.hide();
 			$(this).addClass('hide-content');
 		}
+	});
+}
+
+function openAllLinks(e)
+{
+	e.stopPropagation();
+
+	let isIncludeSub = $(this).hasClass('include-sub');
+	let thisDT = $(this).closest('dt');
+	let links = isIncludeSub ? thisDT.find('a') : thisDT.children('dl').children('dt').children('a');
+
+	if (links.length <= 0) console.log('No Links in this Category.');
+	if ((links.length >= 30) && !confirm('Really want to open ' + links.length + ' pages ??')) return;
+
+	links.each(function(){
+		console.log($(this).attr('href'));
+		window.open($(this).attr('href'), '_blank');
 	});
 }
 

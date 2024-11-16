@@ -47,11 +47,29 @@ h3.hide-content:before {
 	margin: 0 6px 0 0;
 }
 
- h3:hover, a:hover {
+h3:hover, a:hover {
 	background-color: rgba(208, 243, 255, 0.964);
 }
 
 a:hover {
 	color: blue;;
 	font-weight: bolder;
+}
+
+#open-link-btns {
+	display: none;
+	vertical-align: bottom;
+}
+
+span.open-all {
+	margin-left: 20px;
+	font-weight: normal;
+	font-size: 0.5em;
+	color: gray;
+}
+
+span.open-all:hover {
+	color: darkslategray;
+	font-weight: bolder;
+	font-size: 0.8em;
 }
