@@ -1,0 +1,30 @@
+#unicode-table {
+	max-width: 1500px;
+}
+
+table.unicode-body {
+	width: 100%;
+}
+
+table.unicode-body th:first-child {
+	width: 100px;
+}
+
+table.unicode-body th {
+	height: 3em;
+	width: 5.5%;
+	text-align: center;
+}
+
+table.unicode-body td {
+	font-size: 1.2em;
+	height: 3em;
+	cursor: default;
+	text-align: center;
+}
+
+table.unicode-body tr.highlight, table.unicode-body th.highlight, table.unicode-body td.highlight {
+	font-weight: bolder;
+	color: yellow;
+	background-color: rgba(255,255,255,0.2);
+}
