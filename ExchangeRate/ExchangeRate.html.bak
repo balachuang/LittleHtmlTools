@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous"></script>
+    <!-- Reference: https://github.com/js-cookie/js-cookie -->
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+    <script src="ExchangeRate.js"></script>
+  </head>
+  <body style="font-size: 2em;">
+    <input type="button" style="font-size: 100%;" id="addCurrency" value="新增貨幣">
+    <input type="button" style="font-size: 100%;" id="showCurrency" value="貨幣列表">
+    <input type="button" style="font-size: 100%;" id="clearCurrency" value="清除貨幣">
+
+    <br/><br/>
+    <input type="number" id="input-curr" value="1" style="font-size:200%; width:90%; border:none; background-color:lightcyan;">
+    <br/><br/>
+    <div id="output-curr-area"></div>
+  </body>
+</html>
