@@ -153,7 +153,10 @@ const positions = [
 			'https://www.google.com.tw/maps/@46.9480269,7.448185,3a,75y,241.7h,117.36t/data=!3m8!1e1!3m6!1sAF1QipNRyauv9gV-xH6I6CbkLnR79B8eyZQOogQV5AIk!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNRyauv9gV-xH6I6CbkLnR79B8eyZQOogQV5AIk%3Dw203-h100-k-no-pi0-ya358.34283-ro-0-fo100!7i4000!8i2000?entry=ttu',
 			'https://www.google.com.tw/maps/@46.2060376,6.1491322,3a,75y,34.28h,107.5t/data=!3m8!1e1!3m6!1sAF1QipOiy1sA9bxq1qNZxDM3SwtpfZUqLdAs3ET7hIco!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOiy1sA9bxq1qNZxDM3SwtpfZUqLdAs3ET7hIco%3Dw203-h100-k-no-pi0-ya214.17435-ro-0-fo100!7i8704!8i4352?entry=ttu',
 			'https://www.google.com.tw/maps/@46.6901975,7.8686849,3a,75y,104.2h,98.72t/data=!3m7!1e1!3m5!1sYd0lrAMOa03-sUtY9CNf0g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DYd0lrAMOa03-sUtY9CNf0g%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D155.25082%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656?entry=ttu',
-			'https://www.google.com.tw/maps/place/%E8%A5%BF%E5%BA%B8%E5%A0%A1/@46.4155776,6.925843,54a,35y,130.92h,78.84t/data=!3m1!1e3!4m14!1m7!3m6!1s0x478e9a5baedd65c3:0x22994259155c8307!2z6KW_5bq45aCh!8m2!3d46.4142131!4d6.9274924!16zL20vMDRkZHB6!3m5!1s0x478e9a5baedd65c3:0x22994259155c8307!8m2!3d46.4142131!4d6.9274924!16zL20vMDRkZHB6?entry=ttu'
+			'https://www.google.com.tw/maps/place/%E8%A5%BF%E5%BA%B8%E5%A0%A1/@46.4155776,6.925843,54a,35y,130.92h,78.84t/data=!3m1!1e3!4m14!1m7!3m6!1s0x478e9a5baedd65c3:0x22994259155c8307!2z6KW_5bq45aCh!8m2!3d46.4142131!4d6.9274924!16zL20vMDRkZHB6!3m5!1s0x478e9a5baedd65c3:0x22994259155c8307!8m2!3d46.4142131!4d6.9274924!16zL20vMDRkZHB6?entry=ttu',
+			'https://www.google.com.tw/maps/@46.5087417,6.6341168,3a,20.6y,23.91h,73.76t/data=!3m7!1e1!3m5!1sCIHM0ogKEICAgIDEzPvpKw!2e10!6shttps:%2F%2Flh3.googleusercontent.com%2Fgpms-cs-s%2FAB8u6Hb7WuFwIW2rOS4eCwNryq3gdEzckRCUH29RQkWwMqTrDcNmbKOynKUWuJl5tPGCvWOho19DXlspXhyOnLxH6GbQOzXcORQJejtprr_pbAS9SqdSBYri_SnmsEEveJX5ne6JNe4%3Dw900-h600-k-no-pi16.237764787445144-ya135.98934139787548-ro0-fo100!7i8192!8i4096?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D',
+			'https://www.google.com.tw/maps/@46.5220973,6.5649785,3a,60y,163.26h,109.54t/data=!3m7!1e1!3m5!1sK1OaFR2VuEsL-XJ7n_0I8A!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-19.538430889232558%26panoid%3DK1OaFR2VuEsL-XJ7n_0I8A%26yaw%3D163.260036599522!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D',
+			'https://www.google.com.tw/maps/@46.5203074,6.565645,3a,75y,287.39h,85.4t/data=!3m8!1e1!3m6!1sCIHM0ogKEICAgID4od-qiQE!2e10!3e11!6shttps:%2F%2Flh3.googleusercontent.com%2Fgpms-cs-s%2FAB8u6HYD8FJbGdi1zK8MbNmOlkr0eYxPDQPr2cL9kD-S90Qx5ap-aRogHfOG-pXeA6rgsM1QScnc5BycdRErRcEIeMBGB_oo41Id4WJV9YvQZY9411u5V7udGYqL1FZoSoPMM96YEusk8A%3Dw900-h600-k-no-pi4.600809602263709-ya287.39349766804366-ro0-fo100!7i7680!8i3840?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D'
 		],
 		descriptions: [
 			'飯店 - Hotel Alpha-Palmiers 3D',
@@ -165,7 +168,10 @@ const positions = [
 			'伯恩時鐘塔',
 			'日內瓦大噴泉',
 			'因特拉肯',
-			'西庸堡'
+			'西庸堡',
+			'奧林匹克博物館 蔣經國記念碑',
+			'洛桑地鐵 EPFL 站',
+			'EPFL 餐廳'
 		]
 	},{
 		name: '費爾班克斯 / Fairbanks',

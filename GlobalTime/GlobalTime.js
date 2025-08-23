@@ -89,7 +89,7 @@ function getDateStr(tz)
 	let now = new Date();
 	now.setUTCHours(now.getUTCHours() + tz);
 	let yyyy = now.getUTCFullYear();
-	let mm = len2('' + now.getUTCMonth());
+	let mm = len2('' + (now.getUTCMonth() + 1));
 	let dd = len2('' + now.getUTCDate());
 	let hh = len2('' + now.getUTCHours());
 	let mi = len2('' + now.getUTCMinutes());
