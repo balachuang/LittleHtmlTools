@@ -1,0 +1,45 @@
+﻿Main/Sub,起始狀態,Action 名稱,Action 出現條件,目標狀態,User 實際動作,推單後系統動作
+Main Task,,Create Main Task,1. user 屬於 EAR_ADM group,Open,"1. 輸入 main task 必填內容:
+  - fab, SectManager, DeptManager","1. 建立 main task
+2. main task assignee --> SectManager
+3. send email to assignee"
+Main Task,Open,Assign Engineer,"1. user = assignee
+2. user = SectManager",Handling,1. 輸入 Engineer 欄位,"1. assignee --> Engineer
+2. send email to assignee"
+Main Task,Handling,Send For Review,"1. user = assignee
+2. user = Engineer",SectManager Review,1. 輸入簽核單其他必要內容,"1. assignee --> SectManager
+2. send email to assignee"
+Main Task,Handling,Create Prevention,"1. user = assignee
+2. user = Engineer
+3. count < 50
+4. need prevention = true",Handling,,"1. 建立 sub task
+2. sub task assignee --> 系統帳號"
+Main Task,SectManager Review,Approve,"1. user = assignee
+2. user = SectManager",DeptManager Review,,"1. assignee --> DeptManager
+2. send email to assignee"
+Main Task,DeptManager Review,Approve,"1. user = assignee
+2. user = DeptManager",Check,,"1. assignee --> 系統帳號
+2. 根據 3L5W 欄位自動建立 sub task (可能有多張)"
+Main Task,Check,Close,,Close,"任一 sub task 有狀態變化時啟動:
+1. 檢查所有 sub task 的 status.
+2. 如果所有 sub task 都已 close, 就執行 Close","1. assignee --> creator
+2. send email to assignee"
+,,,,,,
+,,,,,,
+,,,,,,
+Main/Sub,起始狀態,Action 名稱,Action 出現條件,目標狀態,User 實際動作,推單後系統動作
+Sub Task,,Create Sub Task,"1. 系統在 Main Task 自動建立
+2. 使用者在 Handling 狀態手動建立",Open,,"1. assignee --> 系統帳號
+2. copy main task 內容"
+Sub Task,Open,Hanlding,,Handling,"main task 有狀態變化時啟動:
+1. 如果 main task 狀態為 Check, 就把 status 推到 Handling","1. assignee --> Engineer
+2. send email to assignee"
+Sub Task,Handling,Send For Review,"1. user = assignee
+2. user = Engineer",SectManager Review,,"1. assignee --> SectManager
+2. send email to assignee"
+Sub Task,SectManager Review,Approve,"1. user = assignee
+2. user = SectManager",DeptManager Review,,"1. assignee --> DeptManager
+2. send email to assignee"
+Sub Task,DeptManager Review,Approve,"1. user = assignee
+2. user = DeptManager",Close,,"1. assignee --> creator
+2. send email to assignee"
