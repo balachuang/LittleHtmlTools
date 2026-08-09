@@ -248,5 +248,52 @@ const positions = [
 			'好萊塢大道 - 中國戲院',
 			'好萊塢字標'
 		]
+	},{
+		name: '墨爾本 / Melbourne',
+		x: 48.1, y: 83.8, timeZone: 10, offset: {x: -8, y: 1},
+		references: [
+			'https://www.google.com.tw/maps/@-37.8089179,144.9555487,56a,35y,33.11h,73.17t/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D',
+			'https://www.google.com.tw/maps/@-37.8188617,144.9723339,97a,35y,260.74h,79.05t/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D',
+			'https://www.google.com.tw/maps/@-37.8146211,144.9637964,3a,75y,72.97h,96.9t/data=!3m7!1e1!3m5!1sPTobpA4iMERmbwoNmO_OQg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-6.902196233416532%26panoid%3DPTobpA4iMERmbwoNmO_OQg%26yaw%3D72.96908072853017!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D',
+			'https://www.google.com.tw/maps/@-38.6658562,143.104546,2a,75y,312.59h,84.68t/data=!3m7!1e1!3m5!1sky6ybbk4pHZMjwU4EbHvTg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D5.317578897013249%26panoid%3Dky6ybbk4pHZMjwU4EbHvTg%26yaw%3D312.59281808191963!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D',
+			'https://www.google.com.tw/maps/@-38.1438159,144.3626348,3a,75y,67.31h,99.3t/data=!3m7!1e1!3m5!1se0JwVjECti9ZRwSHsMzEGw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-9.296128755714577%26panoid%3De0JwVjECti9ZRwSHsMzEGw%26yaw%3D67.31365983224369!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D',
+			'https://www.google.com.tw/maps/@-37.1494789,142.4588623,3a,50.8y,125.36h,72.74t/data=!3m8!1e1!3m6!1sCIHM0ogKEICAgICujdejPA!2e10!3e11!6shttps:%2F%2Flh3.googleusercontent.com%2Fgpms-cs-s%2FAFP8RcOgLM7SVPpeGpJarraaHwvVMSTOZCGkYvzGwKugHBrm1YYojxvr2jok-dxtHv0s2eb8S71dZvcNEQaoOTvGpgEVAhld_tdwwIaKmsSUi-JzPjJn7XzF3m_JT_3Eiuls6zh2cUIH%3Dw900-h600-k-no-pi17.260403748475085-ya358.1035262361306-ro0-fo100!7i7296!8i3648?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D'
+		],
+		descriptions: [
+			'維多利亞女王市場',
+			'雅拉河邊景點',
+			'皇家拱廊',
+			'十二使徒岩',
+			'木偶公園',
+			'惡魔之口'
+		]
+	},{
+		name: '雪梨 / Sydney',
+		x: 49.9, y: 80.8, timeZone: 10, offset: {x: 2, y: -3},
+		references: [
+			'https://www.google.com.tw/maps/@-33.8516912,151.2178224,188a,35y,209.5h,78.31t/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D',
+			'https://www.google.com.tw/maps/@-33.8716563,151.2066508,2a,75y,17.51h,110.45t/data=!3m7!1e1!3m5!1s0Jc61WkofFfvHbd5xXlaDg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-20.45015471688373%26panoid%3D0Jc61WkofFfvHbd5xXlaDg%26yaw%3D17.51217964636635!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D',
+			'https://www.google.com.tw/maps/@-33.7311313,150.3018364,2a,75y,359.81h,103.62t/data=!3m7!1e1!3m5!1sMdy8XNEqkyrr2lzK1h_1Dg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-13.624002719968743%26panoid%3DMdy8XNEqkyrr2lzK1h_1Dg%26yaw%3D359.8079639425058!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D'
+		],
+		descriptions: [
+			'雪梨歌劇院',
+			'維多利亞女王大廈',
+			'Scenic World'
+		]
+	},{
+		name: '布里斯本 / Brisbane',
+		x: 50.2, y: 77.8, timeZone: 10, offset: {x: 0, y: -5},
+		references: [
+			'https://www.google.com.tw/maps/@-27.4640557,153.0322714,3a,75y,84.24h,102.89t/data=!3m7!1e1!3m5!1sw8O2X8UN4FboIibDWcss1g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-12.887367895620656%26panoid%3Dw8O2X8UN4FboIibDWcss1g%26yaw%3D84.24411925763303!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D',
+			'https://www.google.com.tw/maps/@-27.4739992,153.0202456,3a,75y,38.76h,99.52t/data=!3m8!1e1!3m6!1sCIHM0ogKEICAgIDq3NawjAE!2e10!3e11!6shttps:%2F%2Flh3.googleusercontent.com%2Fgpms-cs-s%2FAFP8RcMVjYDtJAO3joXwDi6jaj-HwYR0Ep1WErtE2P9exciWXSkmXfXB6SucxPwUnRpdqHotrYvt3SuXXQE4vPfGKK2Oh58w_eUfcUuyraUqmIlhtRW1jzv91UQjzHGE86kzy4-qmgiHJg%3Dw900-h600-k-no-pi-9.524562114859378-ya356.7261314689366-ro0-fo100!7i7680!8i3840?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D',
+			'https://www.google.com.tw/maps/@-27.4784974,153.0233376,3a,60y,31.1h,97.56t/data=!3m7!1e1!3m5!1smM7iR8svupkfppITlkdplA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-7.563632753029978%26panoid%3DmM7iR8svupkfppITlkdplA%26yaw%3D31.098670512643253!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D',
+			'https://www.google.com.tw/maps/@-27.5340265,152.9677084,3a,23.5y,328.41h,90.82t/data=!3m7!1e1!3m5!1sAB_U_1MPpPRyzyb2CF0Gsw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-0.8159079919065135%26panoid%3DAB_U_1MPpPRyzyb2CF0Gsw%26yaw%3D328.40732699159446!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D'
+		],
+		descriptions: [
+			'故事橋',
+			'Brisbane Sign',
+			'Streets Beach',
+			'龍柏動物園'
+		]
 	}
 ];
